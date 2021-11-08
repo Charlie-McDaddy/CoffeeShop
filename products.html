@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Thanks to John Smilga and his HTML course -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Coffee Shop -- Products</title>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css"
+      integrity="sha512-3M00D/rn8n+2ZVXBO9Hib0GKNpkm8MSUU/e2VNthDyBYxKWG+BftNYYcuEjXlyrSO637tidzMBXfE7sQm0INUg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <!-- nav button -->
+    <span class="nav-btn" id="nav-btn">
+      <i class="fas fa-bars"></i>
+    </span>
+    <!-- nav bar -->
+    <nav class="navbar" id="navbar">
+      <div class="navbar-header">
+        <span class="nav-close" id="nav-close">
+          <i class="fas fa-times"></i>
+        </span>
+      </div>
+      <ul class="nav-items">
+        <li>
+          <a href="index.html" class="nav-link">home</a>
+          <a href="features.html" class="nav-link">features</a>
+          <a href="about.html" class="nav-link">about</a>
+          <a href="products.html" class="nav-link">products</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- Header -->
+    <header id="header" class="header">
+      <div class="banner">
+        <h3 class="banner-subtitle">Simply the best beans</h3>
+        <h1 class="banner-title">The CoffeeShop Products</h1>
+        <a href="features.html" class="banner-btn">explore</a>
+      </div>
+    </header>
+
+    <!-- Content Border -->
+    <div class="content-border"></div>
+    <!-- End Content Border -->
+
+    <!-- Products Section -->
+    <section class="products">
+      <div class="products-center clearfix">
+        <article class="products-info">
+          <div>
+            <h3 class="products-subtitle">check out</h3>
+            <h2 class="products-title text-white">our products</h2>
+          </div>
+          <p class="product-text">
+            Want to make great coffee at home? Think coffee, we have the
+            ingredients and equipment you need for great coffee at home.
+          </p>
+          <a href="products.html" class="main-btn">inventory</a>
+        </article>
+        <article class="products-inventory clearfix">
+          <!-- product 1 -->
+          <article class="product">
+            <img
+              src="./images/product-1.jpeg"
+              alt="product 1"
+              class="product-img"
+            />
+            <h3 class="product-title">Machines</h3>
+            <h3 class="product-price">from $69.99</h3>
+          </article>
+          <!-- product 2 -->
+          <article class="product">
+            <img
+              src="./images/product-2.jpeg"
+              alt="product 2"
+              class="product-img"
+            />
+            <h3 class="product-title">Beans</h3>
+            <h3 class="product-price">from $16.99</h3>
+          </article>
+          <!-- product 3 -->
+          <article class="product">
+            <img
+              src="./images/product-3.jpeg"
+              alt="product 3"
+              class="product-img"
+            />
+            <h3 class="product-title">product title</h3>
+            <h3 class="product-price">from $3.99</h3>
+          </article>
+        </article>
+      </div>
+    </section>
+    <!-- End Products Section -->
+    <!-- Contact Section -->
+    <section class="contact">
+      <div class="contact-center clearfix">
+        <article class="contact-info">
+          <!-- Contact item 1 -->
+          <div class="contact-item">
+            <h3 class="contact-title">
+              <span class="contact-icon">
+                <i class="fas fa-location-arrow"></i> </span
+              >address
+            </h3>
+            <h3 class="contact-text">100 Roma Street, Brisbane, QLD 4000</h3>
+          </div>
+          <!-- Contact item 2 -->
+          <div class="contact-item">
+            <h3 class="contact-title">
+              <span class="contact-icon"> <i class="fas fa-envelope"></i> </span
+              >email
+            </h3>
+            <h3 class="contact-text">coffeeshop@gmail.com</h3>
+          </div>
+          <!-- Contact item 3 -->
+          <div class="contact-item">
+            <h3 class="contact-title">
+              <span class="contact-icon"> <i class="fas fa-phone"></i> </span
+              >phone
+            </h3>
+            <h3 class="contact-text">+61 3200 9876</h3>
+          </div>
+        </article>
+        <article class="contact-form">
+          <form action="" class="form-group">
+            <input
+              type="text"
+              name="name"
+              placeholder="name"
+              class="form-control"
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="email"
+              class="form-control"
+            />
+            <textarea
+              name="message"
+              placeholder="message"
+              class="form-control"
+              rows="5"
+            ></textarea>
+            <button type="submit" class="main-btn">send</button>
+          </form>
+        </article>
+      </div>
+    </section>
+    <!-- End Contact Section -->
+    <!-- Footer Section -->
+    <footer class="footer" id="footer">
+      <div class="footer-center">
+        <div class="social-icons">
+          <!-- social icon 1 -->
+          <a href="#" class="social-icon">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <!-- social icon 2 -->
+          <a href="#" class="social-icon">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <!-- social icon 3 -->
+          <a href="#" class="social-icon">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div>
+        <p class="footer-text">
+          &copy; <span class="text-primary">coffeeshop</span>. all rights
+          reserved
+        </p>
+      </div>
+    </footer>
+    <!-- End Footer Section -->
+    <script src="script.js"></script>
+  </body>
+</html>
